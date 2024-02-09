@@ -1,0 +1,49 @@
+# .gitignore for a Flask project
+
+# Virtual environment
+.venv/
+
+# Environment variables file
+.env
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Python cache
+*.pyo
+*.pyd
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Local database files
+db.sqlite
+
+# Environment configuration
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dependency directories
+.venv/
+env/
+venv/
+ENV/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
