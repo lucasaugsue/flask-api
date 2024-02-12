@@ -11,12 +11,6 @@
             "includeFiles": [
                 "app.py",
                 "carros.py"
-            ],
-            "routes": [
-                {
-                    "src": "/carros",
-                    "dest": "api/index.py"
-                }
             ]
         }
     }
