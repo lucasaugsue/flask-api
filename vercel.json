@@ -9,10 +9,8 @@
         "api/index.py": {
             "runtime": "python3.8",
             "includeFiles": [
-                "app.py",
-                "carros.py"
+                "api/*"
             ]
         }
     }
-  }
-  
+}
