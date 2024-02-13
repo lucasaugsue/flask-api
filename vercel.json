@@ -1,9 +1,9 @@
 {
     "rewrites": [
-        { "source": "/(.*)", "destination": "/api/app/$1" }
+        { "source": "/(.*)", "destination": "/api/index/$1" }
     ],
     "functions": {
-        "api/app.py": {
+        "api/index.py": {
             "runtime": "python3.8"
         }
     }
