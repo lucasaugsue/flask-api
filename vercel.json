@@ -1,13 +1,10 @@
 {
     "rewrites": [
-        { "source": "/(.*)", "destination": "/api/app" }
+        { "source": "/(.*)", "destination": "/api/app/$1" }
     ],
     "functions": {
         "api/app.py": {
-            "runtime": "python3.8",
-            "includeFiles": [
-                "api/*"
-            ]
+            "runtime": "python3.8"
         }
     }
 }
